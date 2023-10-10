@@ -7,6 +7,10 @@ Login Form
 Signup form
 Form Validation 
 useRef Hook
+firebase setup
+deploy 
+create signup/sigin 
+created redux store with userslice 
 
 Features 
 -Browse
