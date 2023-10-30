@@ -25,6 +25,15 @@ fetch data for trailer video
 update store with trailer video data
 embedded youtube video and make it autoplay and mute
 tailwind classes to make it look it awesome!
+Build the movie List
+build the movie card
+TMDB Image CDN URL 
+Made the Browser Page amazing with Tailwind CSS
+UsePopular Movies custom hook to fetch popular movies
+GPT Search Feature
+GPT Search Bar
+Multi Lingual Feature. 
+<!-- integrate GPT APIs -->
 
 Features 
 -Browse
