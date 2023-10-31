@@ -6,8 +6,8 @@ import { HOME_BACKGROUND } from '../utils/constants';
 const GPTSearch = () => {
   return (
     <div>
-        <div className='absolute -z-10'>
-        <   img src={HOME_BACKGROUND} alt='bg' />
+        <div className='fixed -z-10'>
+        <img className='h-screen' src={HOME_BACKGROUND} alt='bg' />
         </div>
         <GPTSearchBar />
         <GPTMovieSuggestions />

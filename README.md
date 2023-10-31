@@ -33,7 +33,9 @@ UsePopular Movies custom hook to fetch popular movies
 GPT Search Feature
 GPT Search Bar
 Multi Lingual Feature. 
-<!-- integrate GPT APIs -->
+integrate GPT APIs
+GPT Search Results
+Memoization - Reduced API calls to TMDB API
 
 Features 
 -Browse
