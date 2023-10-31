@@ -18,7 +18,8 @@ const useNowPlayingMovies = () => {
   }
   useEffect(() => {
    
-    nowPlayingMovies.length!==0 && getNowPlayingMovies()
+    !nowPlayingMovies && 
+    getNowPlayingMovies()
   }, [])
 }
 

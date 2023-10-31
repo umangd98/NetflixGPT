@@ -8,7 +8,7 @@ import React, { useEffect } from 'react'
 const useMovieTrailer = (movieId) => {
     const dispatch = useDispatch()
 
-    const trailerVideo = useSelector(state => state.movies.trailer)
+    const trailerVideo = useSelector(state => state.movies?.trailer)
     //fetch trailer video from TMDB API
     const getMovieVideo = async () => {
         const response = await fetch(`https://api.themoviedb.org/3/movie/${movieId}/videos?language=en-US`, API_OPTIONS)
@@ -21,7 +21,8 @@ const useMovieTrailer = (movieId) => {
         dispatch(addTrailerVideo(trailer))
     }
     useEffect(() => {
-       !trailerVideo &&  getMovieVideo()
+       !trailerVideo &&
+         getMovieVideo()
     },[])
 }
 

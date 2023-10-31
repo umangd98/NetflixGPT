@@ -36,6 +36,8 @@ Multi Lingual Feature.
 integrate GPT APIs
 GPT Search Results
 Memoization - Reduced API calls to TMDB API
+Add .env file 
+Made the site mobile responsive. 
 
 Features 
 -Browse

@@ -16,7 +16,8 @@ const usePopularMovies = () => {
     dispatch(addPopularMovies(json.results))
   }
   useEffect(() => {
-    popularMovies.length!==0 && getPopularMovies()
+    !popularMovies && 
+    getPopularMovies()
   }, [])
 }
 

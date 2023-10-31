@@ -11,7 +11,7 @@ const SecondaryContainer = () => {
   return (
     popularMovies && nowPlayingMovies &&
     <div className=' bg-black'>
-      <div className='-mt-48 pl-12 relative z-20'>
+      <div className='mt-0 md:-mt-48 pl-2 md:pl-12 relative z-20'>
         <MovieList title={lang[langKey].nowPlaying} movies={nowPlayingMovies}/>
         <MovieList title={lang[langKey].trending} movies={popularMovies}/>
         <MovieList title={lang[langKey].popular} movies={nowPlayingMovies}/>

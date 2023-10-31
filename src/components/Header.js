@@ -55,7 +55,7 @@ const Header = () => {
 
   }, []);
   return (
-    <div className='w-[100%] absolute px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between'>
+    <div className='w-[100%] absolute px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row items-center md:justify-between '>
         <img className='w-44' src={LOGO}
         alt='logo' />
          {user && ( <div className='flex p-2'>
@@ -64,7 +64,7 @@ const Header = () => {
           </select>}
           <button onClick={handleGPTClick} className='py-2 px-4 mx-4 my-2 text-white bg-slate-500 rounded-lg cursor-pointer'>{showGPTSearch? "Home":"GPT Search"}</button>
         <img src={user?.photoURL}
-          alt='user icon' className='w-12 h-12'/>
+          alt='user icon' className='hidden md:inline-block w-12 h-12'/>
           <button onClick={handleSignout} className='font-bold text-white'>Sign Out</button>
         </div>)}
     </div>
